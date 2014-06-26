@@ -75,6 +75,11 @@ class OnePhaseFuzzyStrategy
         catch error
           reject error
 
+  verifyAnchor: (anchor, reason, data) ->
+    # Basically, we consider our anchors valid
+    # until the text of the docuemnt changes
+    reason isnt "corpus change"
+
 class TwoPhaseFuzzyStrategy
 
   name: "two-phase fuzzy"
@@ -145,6 +150,11 @@ class TwoPhaseFuzzyStrategy
           resolve anchor
         catch error
           reject error
+
+  verifyAnchor: (anchor, reason, data) ->
+    # Basically, we consider our anchors valid
+    # until the text of the docuemnt changes
+    reason isnt "corpus change"
 
 module.exports =
   strategy:

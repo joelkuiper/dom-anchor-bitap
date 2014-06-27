@@ -1,16 +1,16 @@
 {
   "name": "dom-anchor-fuzzy",
-  "version": "0.0.0-dev01",
+  "version": "0.0.0-dev02",
   "description": "A DOM Anchoring Framework plugin for fuzzy text anchoring",
   "main": "lib/fuzzytext.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/csillag/dom-anchor-fuzzy"
+    "url": "https://github.com/hypothesis/dom-anchor-fuzzy"
   },
   "dependencies": {
     "es6-promise": "~0.1.1",
-    "fuzzy-text-search-h": "0.0.0-dev01",
-    "xpath-range": "0.0.2-dev02"
+    "fuzzy-text-search-h": "0.0.3",
+    "xpath-range": "0.0.4"
   },
   "devDependencies": {
     "browser-resolve": "~1.2.1",
@@ -34,6 +34,11 @@
   "engines": {
     "node": ">=0.8 <0.12"
   },
+  "author": {
+    "name": "Kristof Csillag",
+    "email": "csillag@hypothes.is"
+  },
+  "license": "BSD-2-Clause",
   "scripts": {
     "start": "./tools/serve",
     "prepublish": "coffee -o lib src/",

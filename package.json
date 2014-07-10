@@ -1,15 +1,14 @@
 {
-  "name": "dom-anchor-fuzzy",
+  "name": "dom-anchor-bitap",
   "version": "0.0.0-dev02",
   "description": "A DOM Anchoring Framework plugin for fuzzy text anchoring",
   "main": "lib/fuzzytext.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hypothesis/dom-anchor-fuzzy"
+    "url": "https://github.com/hypothesis/dom-anchor-bitap"
   },
   "dependencies": {
     "es6-promise": "~0.1.1",
-    "fuzzy-text-search-h": "0.0.3",
     "xpath-range": "0.0.4"
   },
   "devDependencies": {

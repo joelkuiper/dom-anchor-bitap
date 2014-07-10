@@ -1,4 +1,4 @@
-FuzzySearcher = require "fuzzy-text-search-h"
+FuzzySearcher = require "./text_searcher"
 Promise = require('es6-promise').Promise
 
 class OnePhaseFuzzyStrategy
